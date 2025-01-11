@@ -1,7 +1,8 @@
+pandas
+streamlit
 openai
 pydantic
-enum
-llama_index
-pickle
-streamlit_chat
-dotenv
+llama-index
+neo4j
+streamlit-chat
+python-dotenv
