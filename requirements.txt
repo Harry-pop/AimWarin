@@ -1,1 +1,7 @@
 openai
+pydantic
+enum
+llama_index
+pickle
+streamlit_chat
+dotenv
