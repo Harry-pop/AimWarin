@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 import os
 
 
-client = OpenAI(api_key=st.secrets["api_key"])
+client = OpenAI(api_key=st.secrets["OPENAI"])
 
 # Define the model for handling keywords
 class KeywordsModel(BaseModel):
