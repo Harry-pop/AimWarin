@@ -10,9 +10,8 @@ from streamlit_chat import message
 from dotenv import load_dotenv
 import os
 
-load_dotenv(dotenv_path='secret.env')
-api_secret = os.getenv('OPENAI')
-client = OpenAI(api_key=api_secret)
+
+client = OpenAI(api_key=st.secrets["api_key"])
 
 # Define the model for handling keywords
 class KeywordsModel(BaseModel):
